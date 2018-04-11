@@ -16,23 +16,26 @@
       <a class="navbar-brand" href="/">
 	  <img style="max-width:120px; margin-top: -7px;" src="{{ url_for('static', filename='images/winelogo.png') }}">
 	  </a>
-      <a class="navbar-brand" href="#">WineMaster</a>
+      <a class="navbar-brand" href="/">Home Page</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">PRODUCT<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/product/">Product<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">TEAM<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/dashboard/">About Wine<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">PRODUCT2<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/dashboard/">Team<span class="sr-only">(current)</span></a>
           </li>
-      
+          <li class="nav-item active">
+            <a class="nav-link" href="/dashboard/">Coming Soon<span class="sr-only">(current)</span></a>
+          </li>
+
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -48,7 +51,7 @@
 <body>
 
 <!-- -->
-     <div class="container-fluid" style= "min-height:100% width:80%">   
+     <div class="container-fluid" style= "min-height:100% width:80%">
              {% block body %}{% endblock %}
      </div>
 	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -62,3 +65,4 @@
 
 
 <p>Hi there how ya doin!?</p>
+
