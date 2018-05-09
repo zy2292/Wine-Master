@@ -1,7 +1,7 @@
 # Wine Master Webapp
-### APMA E4990 Class Final Project
-### Team Members: Xiaojing Dong, Keran Li, Zhen Li, Zihan Yi
-### Our Webapp Link: winemaster.ml (winemaster.pythonanywhere.com)
+#### APMA E4990 Class Final Project
+#### Team Members: Xiaojing Dong, Keran Li, Zhen Li, Zihan Yi
+#### Our Webapp Link: winemaster.ml (winemaster.pythonanywhere.com)
 
 ## Data Preprocessing & Feature Analyzation
 #### Data Cleansing 
