@@ -5,8 +5,8 @@
 #### Python Notebook Summary: https://github.com/zy2292/Wine-Master/blob/master/Final_Project_Wine_Master.ipynb
 
 ## Data Preprocessing & Feature Analyzation
-#### Clean data
-#### Select combination of features as primary keys
+#### Data Cleansing
+Select combination of features as primary keys
 #### Use LDA to find topic groups behind 'descriptions'
 #### Scrape Wine Labels from Internet to train & test the labels
 
