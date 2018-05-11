@@ -5,28 +5,35 @@
 #### Python Notebook Summary: https://github.com/zy2292/Wine-Master/blob/master/Final_Project_Wine_Master.ipynb
 
 ## Data Preprocessing & Feature Analyzation
-#### Data Cleansing 
-1. Clean data
-2. Select combination of features as primary keys
-#### LDA (Latent Dirichlet Allocation)
-1. Build the topic model based on 'description'
-2. Produce the topic distribution across documents for different tasters.
+#### Clean data
+#### Select combination of features as primary keys
+#### Use LDA to find topic groups behind 'descriptions'
+#### Scrape Wine Labels from Internet to train & test the labels
+
 
 ## Image Label Recognition
-#### Optical character recognition (OCR)
-#### Cross Validation
-#### Other Attempts: CNN
+#### Image preprocessing to improve OCR performance
+Convert images to grayscale
+Modified a pre-trained CTPN (Connectionist Text Proposal Network) and used it on text detection
+#### Read training wine labels with Tesseract OCR
 
-## Information Matching
-#### N-gram
-#### Other Attempts: Locality Sensitive Hashing (LSH)
+## Text Matching using Tversky index
+#### String preprocessing
+i. Remove the non-alphanumeric characters
+ii. Remove whitespace and line breaks
+iii. Convert all characters to uppercase
+#### Implement approximate string matching algorithm
+Tokenizer: n-gram
+Similarity measure: Tversky index¶
+Use weighted average of Tversky indices as the overall similarity score
+#### Model Selection
+Select the optimal weights when calculating the weighted Tversky index
 
 
-## Recommendation Engine
-#### Content-Based Recommendation Engine
-#### TF-IDF (term frequency–inverse document frequency)
-#### Cosine Similarity
-
+## Content-Based Recommendation Engine
+#### String preprocessing
+#### Calculate TF-IDF (term frequency–inverse document frequency) and cosine similarity
+Unigram TF-IDF indicates the importance of word in the wine description
 
 ## Webapp Design
 #### Develop/host the Flask webapp with PythonAnywhere
