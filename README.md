@@ -14,18 +14,25 @@ Select combination of features as primary keys
 ## Image Label Recognition
 #### Image preprocessing to improve OCR performance
 Convert images to grayscale
+
 Modified a pre-trained CTPN (Connectionist Text Proposal Network) and used it on text detection
+
 #### Read training wine labels with Tesseract OCR
 
 ## Text Matching using Tversky index
 #### String preprocessing
 i. Remove the non-alphanumeric characters
+
 ii. Remove whitespace and line breaks
+
 iii. Convert all characters to uppercase
 #### Implement approximate string matching algorithm
 Tokenizer: n-gram
-Similarity measure: Tversky index¶
+
+Similarity measure: Tversky index
+
 Use weighted average of Tversky indices as the overall similarity score
+
 #### Model Selection
 Select the optimal weights when calculating the weighted Tversky index
 
